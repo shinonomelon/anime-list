@@ -1,8 +1,7 @@
 import {create} from 'axios';
 
 const api = create({
-  // baseURL: 'https://jsonplaceholder.typicode.com/',
-  baseURL: "http://api.moemoe.tokyo/anime/v1/master/",
+  baseURL: "//api.moemoe.tokyo/anime/v1/master/",
   responseType: 'json',
   timeout: 10000,
 });
