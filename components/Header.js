@@ -9,9 +9,6 @@ const Header =  () => (
           <div className={styles.logo}>
             <Link href="/"><a>アニメリスト</a></Link>
           </div>
-          {/* <Links>
-            <a href="http://github.com/renatorib/next-jph">Github</a>
-          </Links> */}
         </div>
       </div>
     </div>
