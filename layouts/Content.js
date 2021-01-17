@@ -26,11 +26,10 @@ export default ({ id }) => {
       <Header />
       <div className={styles.contained}>
         <div className={styles.title}>
-          <span>posts from</span>
           <h1>{anime.title}</h1>
         </div>
         <div className={styles.animeContent}>
-          <p>{anime.product_companies}</p>
+          <p>制作会社:  {anime.product_companies}</p>
           <a href={twitterUrl} target="_blank" rel="noopener noreferrer">
             twitterをフォローする
           </a><br/>
