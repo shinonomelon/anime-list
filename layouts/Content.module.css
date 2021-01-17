@@ -1,0 +1,83 @@
+.wrapper {
+  background: #fff;
+}
+
+.contained {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin-top: 60px;
+
+  margin-bottom: 20px;
+  text-align: center;
+  position: relative;
+}
+
+@media (min-width: 600px) {
+  .title:before,
+  .title:after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    width: 46px;
+    height: 1px;
+    background: #eee;
+    margin: 0 30px;
+    left: 0;
+    top: 50%;
+  }
+  .title:after {
+    left: auto;
+    right: 0;
+  }
+}
+.title span {
+  font-size: 12px;
+  color: #bbbbbb;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.title h1 {
+  font-family: "IM Fell Double Pica";
+  color: #3498db;
+  text-align: center;
+  font-weight: italic;
+  font-weight: normal;
+  margin: 0;
+  font-size: 38px;
+}
+@media (max-width: 600px) {
+  .title h1 {
+    font-size: 25px;
+  }
+}
+
+.animeContent {
+  margin-top: 30px;
+  color: #888;
+  width: 100%;
+  max-width: 580px;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.animeContent h2 {
+  color: #897492;
+  font-family: "Sansita";
+  font-size: 30px;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+}
+
+.animeContent p {
+  letter-spacing: 0.3px;
+  line-height: 1.42em;
+  font-size: 18px;
+  color: #aaa;
+}
